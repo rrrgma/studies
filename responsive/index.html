@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive</title>
+  <style>
+    body {
+      background-color: rgb(211, 3, 3);
+      color: white;
+      font-size: 32px;
+    }
+
+    p {
+      display: none;
+
+    }
+
+    /* No código ele (p) permanece, mas ele não aparece no nosso navegador */
+
+    @media (max-width: 580px) {
+      body {
+        background: rgb(130, 1, 1);
+      }
+    }
+
+
+    @media (max-width: 320px) {
+      body {
+        font-size: 50px;
+        background: rgb(60, 1, 1);
+      }
+
+      p {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  Text 1
+  <p>Text 2</p>
+</body>
+
+</html>

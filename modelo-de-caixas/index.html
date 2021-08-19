@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de caixas</title>
+  <style>
+    h1 {
+      /*
+            display: inline; -> o elemento fica inline 
+            display: block; -> o elemento fica em bloco 
+            display: inline-block; -> o elemento fica inline, porém com características de block, ou seja, poder adicionar largura e altura
+      */
+      background-color: aliceblue;
+      height: 300px;
+      width: 300px;
+      border: 10px solid darkgreen;
+      padding: 10px;
+      /*é informado do topo, direita, chão e esquerda*/
+      margin: 20px auto 40px auto;
+      /*auto: deixa o elemento centralizado no meio*/
+      outline: 5px dashed pink;
+      /*fica após a margem*/
+    }
+
+    a {
+      border: 5px dashed pink;
+      /*dashed: pontilhado/quadrado, dotted: pontilhado/círculo*, double: linha dupla, groove: 2 cores*/
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Exemplo de caixa box-level</h1>
+  <p>Parágrafos também são exemplos de box-level, mas os <a href="#">são exemplos de inline-level</a>. Vamos ver como
+  tudo isso funciona.</p>
+  <!--Vá no google chrome, com o botão direito, clique em 'inspecionar', vá em 'elementos', quando você inspeciona um elemento, você pode mudar os valores pelos elementos do navegador sem afetar no código original-->
+</body>
+
+</html>

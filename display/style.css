@@ -1,0 +1,45 @@
+* { 
+  background: rgb(95, 75, 196);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/*heigth: 100vh;      =     deixa centralizado*/
+
+
+div  { 
+  background: rgb(169, 126, 237);
+  color: #fff;
+  margin: 30px 32px 30px 32px;
+  padding: 300px 200px 300px 40px;
+}
+/*posição*/
+
+
+
+.p1 { 
+
+background: rgb(169, 126, 237);
+position: absolute;
+top: 300px;
+left: 350px;
+text-align: center;
+letter-spacing: 50px;
+}
+
+.p { 
+  
+background: rgb(169, 126, 237);
+display: none;
+position: absolute;
+text-align: center;
+right: 460px;
+letter-spacing: 2px;
+
+}
+
+
+.aparecer:hover .p {
+
+display: block; 
+}

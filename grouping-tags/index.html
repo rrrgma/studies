@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping tags</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: pink;
+    }
+
+    nav {
+      background-color: lightgreen;
+      padding: 3px;
+      box-shadow: 1px 1px 1px black;
+      /*deslocamento horizontal, deslocamento vertical, espalhamento e sombra*/
+    }
+
+    h1 {
+      box-shadow: inset 2px 1px 14px 6px plum;
+      /*inset: deixa uma sombra para fora*/
+    }
+
+    #bola {
+      background-color: gold;
+      border-radius: 50px;
+      width: 100px;
+      height: 100px;
+      margin-top: 10px;
+    }
+
+    nav>a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+
+    nav>a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      padding: 10px;
+      margin: 10px;
+      background-color: white;
+    }
+
+    main {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    footer {
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      margin: 1px;
+    }
+
+    article {
+      background-color: lightblue;
+      padding: 5px;
+    }
+
+    article>aside {
+      background-color: palevioletred;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+  </header>
+  <main>
+    <section id="noticias">
+      <article>
+        <h2>Notícia sobre o Governo</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi sunt quam quod aliquid expedita
+          omnis! Provident maxime ad tempore minus nobis nesciunt voluptatum, at distinctio unde iusto, amet odit?</p>
+        <aside>
+          <p>Artigo escrito por Melissa Guerrero</p>
+        </aside>
+      </article>
+    </section>
+  </main>
+  <footer>
+    Desenvolvido por Melissa Guerrero
+  </footer>
+  <div id="bola"></div>
+</body>
+
+</html>
